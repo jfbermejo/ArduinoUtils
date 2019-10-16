@@ -4,6 +4,7 @@ Utilidades imprescindibles para trabajar con Arduino
 1. [I2CScanner](#i2cscanner)
 2. [OneWireScan](#onewirescan)
 3. [comandosAT](#comandosat)
+4. [softwareReset](#softwarereset)
 
 ***
 
@@ -28,3 +29,8 @@ Sketch que permite enviar comandos AT a un dispositivo conectado a la placa Ardu
 
 ### Dependencias
 - - [SoftwareSerial Library](https://www.arduino.cc/en/Reference/SoftwareSerial)
+
+***
+
+## softwareReset
+Sketch que resetea la placa Arduino mediante la llamada a una función.
