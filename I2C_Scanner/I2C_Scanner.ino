@@ -29,6 +29,9 @@
 
 #include <Wire.h>
 
+// Eliminar comentarios para placa NodeMCU
+//#define PIN_WIRE_SDA (4)  // Pin SDA en nodeMCU GPIO4 o D2
+//#define PIN_WIRE_SCL (5)  // Pin SCL en nodeMCU GPIO5 o D1
 
 void setup()
 {
