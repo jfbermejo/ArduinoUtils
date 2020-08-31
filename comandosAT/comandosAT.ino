@@ -1,6 +1,6 @@
-#include <SoftwareSerial.h>
-SoftwareSerial SIM900(7, 8); //Seleccionamos los pines 7 como Rx y 8 como Tx
-
+//#include <SoftwareSerial.h>
+//SoftwareSerial SIM900(7, 8); //Seleccionamos los pines 7 como Rx y 8 como Tx
+HardwareSerial &SIM900 = Serial1;
 void setup(){
 	SIM900.begin(9600);
 	Serial.begin(9600);
